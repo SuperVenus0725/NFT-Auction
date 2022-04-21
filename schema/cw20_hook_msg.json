@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Cw20HookMsg",
+  "anyOf": [
+    {
+      "type": "object",
+      "required": [
+        "place_listing"
+      ],
+      "properties": {
+        "place_listing": {
+          "type": "object",
+          "required": [
+            "id",
+            "nft_addr"
+          ],
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "nft_addr": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "bid_listing"
+      ],
+      "properties": {
+        "bid_listing": {
+          "type": "object",
+          "required": [
+            "listing_id"
+          ],
+          "properties": {
+            "listing_id": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "nameservice",
+  "version": "1.0.0",
+  "description": "This is a CosmWasm derivation of [Cosmos SDK's name service application](https://tutorials.cosmos.network/nameservice/tutorial/01-app-design.html)",
+  "main": "deploy.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "@cosmjs/cosmwasm-launchpad": "^0.26.0",
+    "@cosmjs/cosmwasm-stargate": "^0.26.0",
+    "@cosmjs/crypto": "^0.26.0",
+    "@cosmjs/encoding": "^0.26.0",
+    "@cosmjs/faucet": "^0.26.0",
+    "@cosmjs/faucet-client": "^0.26.0",
+    "@cosmjs/launchpad": "^0.26.0",
+    "@cosmjs/math": "^0.26.0",
+    "@cosmjs/proto-signing": "^0.26.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

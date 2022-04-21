@@ -1,0 +1,2 @@
+c58f3c8d09becd044ab426fd0574583e0d9992c8fd80628bd0b3d97ef8ff95dc  ./target/wasm32-unknown-unknown/release/cw_auction.wasm
+5db0b6e4dce15593287f49a506b01fabb7a96a9f3a84a460b691b5297ac14656  ./target/wasm32-unknown-unknown/release/cw_nameservice.wasm
